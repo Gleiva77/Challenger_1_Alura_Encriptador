@@ -1,0 +1,136 @@
+@font-face {
+    font-family: EduSABeginner-VariableFont_wght;
+    src: url(EduSABeginner-VariableFont_wght.ttf) format("truetype");
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: EduSABeginner-VariableFont_wght;  
+  background-image: url(https://github.com/Gleiva77/Challenger_1_Alura_Encriptador/blob/main/Img/fondofinal.jpg?raw=true);
+  
+}
+
+.container{
+  margin: auto;
+  width: 960px;
+  height: 650px;
+  padding: 5px;
+}
+
+.text-input{
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  color: #cb3f14;
+  width: 80%;
+  height: 60%;
+  background: #e6e9f3;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 24px;
+}
+
+.left{
+  float: left;
+  width: 70%;
+  height: 50%;
+  border-radius: 24px;
+}
+
+.left-button{
+  float: left;
+  width: 70%;
+  height: auto;
+  border-radius: 24px;
+}
+
+#btn-encriptar{
+  padding: 24px;
+  width: 30%;
+  height: 60%;
+  background: #0A3871;
+  border-radius: 24px;
+  margin-left: 15%;
+  color:#D8DFE8;
+}
+#btn-desencriptar{
+  padding: 24px;
+  width: 30%;
+  height: 60%;
+  background: #D8DFE8;
+  border-radius: 24px;
+  margin-left: 10%;
+}
+p{
+  margin-left: 10%;
+}
+.right{
+  float: right;
+  text-align: center;
+  border-radius: 24px;
+  width: 30%;
+  height: 80%;
+}
+
+#imgDer{
+  margin-top: 20%;
+  width: 90%;
+  height: auto;
+  left: 1032px;
+  top: 283px;
+  border-radius: 24px;
+}
+#texto #texto2{
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 24px;
+}
+
+#copiar{
+  margin-left: 33%;
+  margin-top: 60%;
+  display: none;
+  padding: 15px;
+  width: 40%;
+  height: 10%;
+  background: #D8DFE8;
+  border-radius: 24px;
+}
+.logo{
+  width: 100%;
+  float: left;
+}
+.logoImg{
+  margin-top: 2%;
+  float: inherit;
+  margin-left: 5%;
+}
+.tittle{
+  float: inherit;
+  margin-left: 15%;
+}
+
+#texto2{
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  color: #0A3871;
+  width: 80%;
+  height: 60%;
+  background: #dbdee8;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-style: oblique;
+  border-radius: 24px;
+  
+}
+
+footer{
+  font-size: 22px;
+  font-style: oblique;
+  text-align:center;
+  color: rgb(4, 23, 197);
+}
